@@ -68,19 +68,19 @@ function checkEligibility(age , isStudent){
 }
 checkEligibility(23 , true);
 
-// String comparison and manipulation
-// function formatName(name){
-//     for ( let i = o ; i< name.length ; i ++){
-//         if (name.Charat(i) === " "){
-//                 name.replace(" ", "");
-//         }     
-//     }
-//     console.log(name);
-// }
-// formatName( "     ofer    ");
-
+String comparison and manipulation
 function formatName(name){
+    for ( let i = 0 ; i< name.length ; i ++){
+        if (name.charAt(i) === " "){
+                name = name.replace(" ", "");
+        }     
+    }
     console.log(name);
-    console.log(name.trim());
 }
-formatName( "     ofer       ");
+formatName( "     ofer    ");
+
+// function formatName(name){
+//     console.lo
+//     console.log(name.trim());
+// }
+// formatName( "     ofer       ");
