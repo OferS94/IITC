@@ -63,7 +63,7 @@ function checkEligibility(age , isStudent){
     else if(age >= 18 && isStudent === true && age <= 24 )console.log("you are a young adult student");
     else if(ge >= 18 && isStudent === false && age <= 24 )console.log("you are a young adult non student");
     else if(age > 25 && isStudent === true)console.log("you are an adult student");
-    // else(age > 25 && isStudent === false)console.log("you are an adult non student");
+    else if(age > 25 && isStudent === false)console.log("you are an adult non student");
 
 }
 checkEligibility(23 , true);
