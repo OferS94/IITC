@@ -170,4 +170,24 @@ let orders = [
   // console.log("Product Counts:", productCounts);
   //
   // task 11
-  
+  let student2 = {
+    name: "ifer",
+    grades: [30 , 80 , 92 , 94 , 85]
+  }
+  function calculateAverage(){
+    let avg = 0;
+    let count = 0 ;
+    for (let i = 0 ; i <student2.grades.length ; i++){
+        avg += student2[grades[i]];
+        count++;
+        console.log(count);
+    }
+    avg = (avg/count) ;
+    return avg;
+  }
+  let x = calculateAverage(student2);
+  function getLetterGrade(){
+    
+
+  }
+
