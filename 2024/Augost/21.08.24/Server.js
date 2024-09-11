@@ -26,7 +26,7 @@ app.get("/about", (req, res) => {
   });
 
   app.get("/api/products/:id", (req, res) => {
-    const proID = req.params.proID;
+    const proID = req.params.id;
     let product = null;
     for (let i = 0 ; i< products.length ; i++){
         if (products[i] === proID) product = products[i];
