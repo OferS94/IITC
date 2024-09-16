@@ -15,8 +15,12 @@
     border-bottom: #111 solid 5px;
     margin-bottom: 50px;
 }
+.hac{
+    margin: 25px;
+}
 
 .button-85 {
+    margin-left: 15px;
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -182,7 +186,7 @@ ul li {
     background-color:#fffbf8;
     padding:13px;
     width:335px;
-    /* margin:100px auto; */
+    margin:20px auto; 
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
