@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Work-Sans-400";
+    src: url("../assets/fonts/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Work-Sans-600";
+    src: url("../assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Work-Sans-700";
+    src: url("../assets/fonts/static/WorkSans-Bold.ttf");
+}

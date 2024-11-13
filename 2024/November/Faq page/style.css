@@ -1,19 +1,22 @@
-:root{
---color-faq-White: hsl(0, 0%, 100%);
---color-faq-LightPink: hsl(275, 100%, 97%);
---color-faq-grayishPurple: hsl(292, 16%, 49%);
---color-faq-darkPurple: hsl(292, 42%, 14%);
-}
+@import "./css/fonts.css";
+@import "./css/colors.css";
 
-@font-face {
-    font-family: Work Sans;
-    src: url(https://fonts.google.com/specimen/Work+Sans);
-}
 
-.togText{
-    font-family: Work Sans;
+
+
+
+.bigText{
+    font-family: "Work-Sans-400";
     color: var(--color-faq-grayishPurple);
-    display: none;
+}
+
+/* .active {
+  display: block;
+} */
+
+.disabled{
+  display: none;
+  
 }
 
 body{
@@ -31,7 +34,7 @@ body{
 header {
     top : 0;
     width: 100%;
-    height: 30vh;
+    height: 25vh;
     background-image: url("assets/images/background-pattern-desktop.svg");
     background-size: cover;
     background-position: center;
@@ -43,9 +46,7 @@ header {
     align-items: center;
     margin-top: 15px;
     justify-content:  space-between;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-weight: bold;
+    font-family: "Work-Sans-600";
 }
 .imgSmall{
     width: 20px; 
@@ -77,7 +78,6 @@ header {
   /* background-image: url("assets\images\icon-plus.svg");
   width: 20px; 
   height: 20px; */
-  background-image: url("assets/images/icon-plus.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,10 +90,8 @@ header {
 }
 
 .titText{
-  font-weight: 700;
-  font-size: 26px;
-  font-family: Work Sans;
-  display: non;
+  font-family: "Work-Sans-700";
+  font-size: larger;
 }
 
 .title{
