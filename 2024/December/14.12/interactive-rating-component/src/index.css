@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Overpass-bold-700";
+  src: url("../public/fonts/static/Overpass-Bold.ttf");
+}
+@font-face {
+  font-family: "Overpass-regular-400";
+  src: url("../public/fonts/static/Overpass-Regular.ttf");
+}
